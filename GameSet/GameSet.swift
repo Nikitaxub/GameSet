@@ -26,7 +26,7 @@ class GameSet {
             for color in 1...3 {
                 for qty in 1...3 {
                     for filling in 1...3 {
-                        cards.append(Card(figure: figure, color: color, qty: qty, filling: filling))
+                        //cards.append(Card(figure: figure, color: color, qty: qty, filling: filling))
                     }
                 }
             }

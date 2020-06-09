@@ -26,10 +26,23 @@ struct Card: Hashable
     var setID: Int?
     var placeID: Int?
     
-    let figure: Int
+    let figure: Figure
     let color: Int
     let qty: Int
-    let filling: Int
+    let filling: Filling
+    
+    enum Figure {
+        case squiggle
+        case diamond
+        case oval
+    }
+    
+    enum Filling {
+        case solid
+        case striped
+        case unfilled
+    }
+    
 //    private var identifier: Int
 //
 //    private static var identifierFactory = 0
